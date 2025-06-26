@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 # Ваш ключ вставлен сюда
 import os
-BOT_TOKEN = os.getenv("7930251849:AAGKyNNDRnlTpdAswvewRPZV-yzHWopqD08")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # Настраиваем логирование
 logging.basicConfig(
